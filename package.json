@@ -11,7 +11,8 @@
     }
   },
   "scripts": {
-    "start": "npx tsx index.ts",
+    "start": "node build/index.js",
+    "start:dev": "npx tsx index.ts",
     "start:prod": "node build/index.js",
     "test": "npx tsx --test test/*.test.ts",
     "eslint:check": "npx eslint . ",
@@ -93,7 +94,7 @@
     "eslint": "9.39.5",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.5",
-    "eslint-plugin-import": "2.32.0",
+    "eslint-import-resolver-typescript": "4.4.5",
     "globals": "17.9.0",
     "markdown-table": "3.0.4",
     "nodemon": "3.1.14",
